@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:layout_marginBottom="10dp">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="#f0f0f0">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title for the to do list"
+            android:id="@+id/title"
+            android:textColor="@android:color/black"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description for the to do list"
+            android:layout_below="@+id/title"
+            android:id="@+id/description"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21 January 2018"
+            android:layout_alignParentRight="true"
+            android:id="@+id/date"
+            android:padding="5dp"
+            android:textColor="@android:color/holo_red_light"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
